@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Portafolio</title>
 </head>
@@ -13,7 +14,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Adrian Figueroa</a>
+        <a class="navbar-brand" href="#">Portafolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,43 +23,69 @@
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Experiencia <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="#">Trabajos</a>
-                <a class="nav-item nav-link" href="#">Intereses</a>
+                <a class="nav-item nav-link" href="#sobre-mi">intereses</a>
+                <a class="nav-item nav-link" href="#">Contacto</a>
 
             </div>
         </div>
     </nav>
-    <img class="imagenportada img-fluid" src="assets/img/IMG_20191229_154434.jpg" alt="">
-    <h2 class="text-center py-3 mx-3">Sobre Mi</h2>
+
+
+    <div class="foto-personal">
+
+        <img class=" img-fluid" src="assets/img/torres.jpg" alt="">
+
+    </div>
 
 
 
 
-    <section class=" container-fluid sobre-mi row intereses">
+    <h2 id="sobre-mi mt-5">Sobre Mi</h2>
+
+    <section class=" container-fluid sobre-mi row mt-5 text-center">
 
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis soluta excepturi quibusdam accusamus neque
+
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis soluta excepturi
+            quibusdam accusamus neque
             eos iusto architecto alias facere dicta id quisquam, tempore deleniti, asperiores omnis voluptatem cumque
             labore dolore!</p>
 
-        <img class="imperial col-3 my-3" src="assets/img/logo imperial.jpg" alt="logo-imperial">
-        <p>fan de <span>star wars</span></p>
+
+        <div class=" col-3 my-3">
+
+            <img src="assets/img/196-1963443_source-code-icon-coding-icon-png-transparent.png" alt="">
+            <p>Developer <span>En Formacion</span></p>
+        </div>
+
+        <div class=" col-3 my-3">
+
+            <img src="assets/img/logo imperial.jpg" alt="logo-imperial">
+            <p>fan de <span>star wars</span></p>
+        </div>
 
 
-        <img class="rock col-3"
-            src="assets/img/7616b64374d1ecc318e9d638807c4d61-logotipo-de-la-muestra-de-la-m-sica-rock-by-vexels.png"
-            alt="">
-        <p>fan del <span>Rock</span></p>
+        <div class="col-3 my-3">
+            <img src="assets/img/7616b64374d1ecc318e9d638807c4d61-logotipo-de-la-muestra-de-la-m-sica-rock-by-vexels.png"
+                alt="">
+            <p>fan del <span>Rock</span></p>
+
+        </div>
 
 
-        <img class="libros col-3 " src="assets/img/libros1.png" alt="">
-        <p>fan de <span>Libros</span></p>
+        <div class="libros col-3 my-3">
+            <img src="assets/img/libros1.png" alt="">
+            <p>fan de <span>Libros</span></p>
+        </div>
+
+
 
 
 
 
     </section>
 
-    <section>
+    <section class="container mt-3">
 
 
 
@@ -66,39 +93,48 @@
         <h2 class="text-center py-3 mx-3">Mis Trabajos</h2>
 
 
-        <div class="card-deck container-fluid">
+        <div class="card-deck container-fluid mb-5">
             <div class="card">
-                <img src="assets/img/Captura el 2020-05-18 a las 20.58.38.png" class="card-img-top" alt="...">
+                <img src="assets/img/Screenshot_2020-05-18 Dinosaurios de Chile y Latinoamerica.png"
+                    class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Dinosaurios de Chile y Latonoamerica</h5>
                     <p class="card-text">Pagina sobre dinosaurios y animales prehistoricos de chile y latinoamerica un
                         proyecto personal de divulgacion cientifica.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                    <a href="#" class="card-link">Comparte</a>
+                    <a href="#" class="card-link">Explora</a>
                 </div>
             </div>
             <div class="card">
-                <img src="assets/img/suricata.png" class="card-img-top" alt="...">
+                <img src="assets/img/suricata pre.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Suricata</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
+                        accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
+                        alias! Corporis quasi velit iste animi voluptatibus.
                     </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                    <a href="#" class="card-link">Comparte</a>
+                    <a href="#" class="card-link">Explora</a>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/Screenshot_2020-05-18 IGUANAS.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Iguanas</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional
-                        content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
+                        accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
+                        alias! Corporis quasi velit iste animi voluptatibus.</p>
+
+                    <a href="#" class="card-link">Comparte</a>
+                    <a href="#" class="card-link">Explora</a>
                 </div>
             </div>
         </div>
 
 
-        <div class="card-deck">
+        <div class="card-deck  container-fluid mb-5">
             <div class="card">
                 <img src="assets/img/Screenshot_2020-05-18 Meet Coffee.png" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -106,26 +142,34 @@
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
                         accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
                         alias! Corporis quasi velit iste animi voluptatibus.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                    <a href="#" class="card-link">Comparte</a>
+                    <a href="#" class="card-link">Explora</a>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/Screenshot_2020-05-18 CUPPON.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Cuppon</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
+                        accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
+                        alias! Corporis quasi velit iste animi voluptatibus.
                     </p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                    <a href="#" class="card-link">Comparte</a>
+                    <a href="#" class="card-link">Explora</a>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/Screenshot_2020-05-18 Olivia Ros Food Blogger.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Olivia Ros</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                        additional
-                        content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
+                        accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
+                        alias! Corporis quasi velit iste animi voluptatibus.</p>
+
+                    <a href="#" class="card-link">Comparte</a>
+                    <a href="#" class="card-link">Explora</a>
                 </div>
             </div>
         </div>
@@ -135,8 +179,7 @@
     </section>
 
 
-    <section class="">
-
+    <section class="contacto container">
 
 
 
@@ -146,7 +189,18 @@
 
     <footer>
 
+
+
         <p>Adrian Figueroa - 2020 - Chile</p>
+
+        <div class="iconos text-white">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
+
+        </div>
+
+
 
     </footer>
 
