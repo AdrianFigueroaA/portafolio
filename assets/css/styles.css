@@ -1,0 +1,72 @@
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+
+.imagenportada{
+
+
+width: 100vw;
+    
+
+}
+
+.navbar{
+
+background: white;
+text-align: left;
+padding: 10px;
+
+position: sticky;
+top: 0px;
+display: flex;
+justify-content: space-between;
+z-index: 1;
+
+
+}
+
+.sobre-mi{
+
+height: 600px;
+    width: 100%;
+    background: aqua;
+}
+
+.imperial{
+height: 300px;
+    
+}
+
+p{
+
+    font-size: 16px;
+    
+}
+
+.rock{
+
+height: 300px;
+}
+
+.libros{
+
+height: 300px;
+}
+
+footer{
+
+
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    height: 100px;
+    
+
+}
+footer p{
+padding-top: 34px;
+    
+}
