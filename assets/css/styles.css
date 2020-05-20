@@ -5,7 +5,9 @@ padding: 0;
 }
 
 
-
+html {
+  scroll-behavior: smooth;
+}
 
 .navbar{
 
@@ -73,8 +75,8 @@ p{
 }
 .contacto{
 
-   
-    height: 500px;
+   padding-top: 100px;
+    
 }
 
 footer{
@@ -82,7 +84,7 @@ footer{
 
     text-align: center;
     font-size: 40px;
-    height: 100px;
+    
     background:#212529;
     color: white;
 
