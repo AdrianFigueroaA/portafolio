@@ -11,18 +11,25 @@ html {
 
 .navbar{
 
-
-text-align: left;
 padding: 10px;
 position: sticky;
 top: 0px;
 display: flex;
 justify-content: space-between;
 z-index: 1;
-
+font-family: 'Open Sans', sans-serif;
 
 }
 
+
+
+.navbar-expand-lg .navbar-collapse {
+    
+    text-align: right;
+    justify-content: right;
+    margin: 5px 0;
+    
+}
 
 .personal{
 padding-top: 60px;
