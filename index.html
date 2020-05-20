@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Portafolio</title>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Portafolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,37 +23,78 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="#">Experiencia <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Trabajos</a>
+                <a class="nav-item nav-link" href="#trabajos">Trabajos</a>
                 <a class="nav-item nav-link" href="#sobre-mi">intereses</a>
-                <a class="nav-item nav-link" href="#">Contacto</a>
+                <a class="nav-item nav-link" href="#contacto">Contacto</a>
 
             </div>
         </div>
     </nav>
 
 
-    <div class="foto-personal">
-
-        <img class=" img-fluid" src="assets/img/torres.jpg" alt="">
-
-    </div>
 
 
+    <section class="  personal container row text-center ">
+
+        <div class="foto-personal col-6">
+
+            <img class=" img-fluid" src="assets/img/torres.jpg" alt="">
+
+        </div>
 
 
-    <h2 id="sobre-mi mt-5">Sobre Mi</h2>
+        <div class="col-6 ">
 
-    <section class=" container-fluid sobre-mi row mt-5 text-center">
+            <h1>Adrian Figueroa</h1>
+
+            <p>
+                Lucas ipsum dolor sit amet calamari moff wedge leia maul wookiee sebulba twi'lek mon sidious. Antilles
+                antilles
+                skywalker tusken raider hutt binks leia. Darth skywalker kenobi mandalorians. Moff moff mothma mara
+                ponda ewok leia
+
+
+            </p>
+
+            <p>
+                Darth naboo endor yoda darth. Hutt zabrak jade skywalker qui-gonn. Maul mace kamino padmé alderaan hutt.
+                Sebulba organa
+                dagobah solo gonk vader antilles. Jango gonk moff kit hutt. Darth luuke yavin antilles darth fisto jabba
+                jinn dantooine.
+
+            </p>
+
+
+        </div>
+
+
+    </section>
 
 
 
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis soluta excepturi
-            quibusdam accusamus neque
-            eos iusto architecto alias facere dicta id quisquam, tempore deleniti, asperiores omnis voluptatem cumque
-            labore dolore!</p>
 
 
-        <div class=" col-3 my-3">
+
+
+    <hr>
+
+    <section id="sobre-mi" class=" container-fluid sobre-mi row text-center">
+
+
+        <div class="col-12">
+
+            <h2 class="mb-5 mt-3">Sobre Mi</h2>
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis soluta excepturi
+                quibusdam accusamus neque
+                eos iusto architecto alias facere dicta id quisquam, tempore deleniti, asperiores omnis voluptatem
+                cumque
+                labore dolore!</p>
+        </div>
+
+
+
+        <div class=" dev col-3 my-3">
 
             <img src="assets/img/196-1963443_source-code-icon-coding-icon-png-transparent.png" alt="">
             <p>Developer <span>En Formacion</span></p>
@@ -61,22 +103,23 @@
         <div class=" col-3 my-3">
 
             <img src="assets/img/logo imperial.jpg" alt="logo-imperial">
-            <p>fan de <span>star wars</span></p>
+            <p>Fan de <span>star wars</span></p>
         </div>
 
 
         <div class="col-3 my-3">
             <img src="assets/img/7616b64374d1ecc318e9d638807c4d61-logotipo-de-la-muestra-de-la-m-sica-rock-by-vexels.png"
                 alt="">
-            <p>fan del <span>Rock</span></p>
+            <p>Amante del <span>Rock</span></p>
 
         </div>
 
 
         <div class="libros col-3 my-3">
             <img src="assets/img/libros1.png" alt="">
-            <p>fan de <span>Libros</span></p>
+            <p>lector <span>Empedernido</span></p>
         </div>
+
 
 
 
@@ -85,101 +128,363 @@
 
     </section>
 
-    <section class="container mt-3">
+    <hr id="trabajos">
 
 
+    <section class="container mt-3 text-center">
 
 
-        <h2 class="text-center py-3 mx-3">Mis Trabajos</h2>
+        <div>
+            <h2 class=" pt-3 my-5">Mis Trabajos</h2>
+        </div>
 
 
-        <div class="card-deck container-fluid mb-5">
+        <div class="card-deck container-fluid mb-5 ">
             <div class="card">
-                <img src="assets/img/Screenshot_2020-05-18 Dinosaurios de Chile y Latinoamerica.png"
-                    class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Dinosaurios de Chile y Latonoamerica</h5>
-                    <p class="card-text">Pagina sobre dinosaurios y animales prehistoricos de chile y latinoamerica un
+                <img src="assets/img/dino media.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Dinosaurios de Chile y Latinoamerica</h5>
+                    <p class="card-text">Pagina sobre dinosaurios y animales prehistoricos de chile y latinoamerica
+                        un
                         proyecto personal de divulgacion cientifica.</p>
 
-                    <a href="#" class="card-link">Comparte</a>
-                    <a href="#" class="card-link">Explora</a>
+                    <button type="button" class="btn bg-primary text-white" <a href="#"
+                        class="card-link">Comparte</a></button>
+
+                    <button type="button" class="btn bg-success text-white" data-toggle="modal"
+                        data-target="#dinosaurios">
+                        Explora!
+                    </button>
                 </div>
             </div>
+
+            <div class="modal fade" id="dinosaurios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="dinosaurios">Dinosaurios de Chile y Latinoamerica</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body foto_modal">
+                            <img src="assets/img/Screenshot_2020-05-18 Dinosaurios de Chile y Latinoamerica.png" alt="">
+                            <br>
+                            <p>Lucas ipsum dolor sit amet calamari moff wedge leia maul wookiee sebulba twi'lek mon
+                                sidious. Antilles antilles
+                                skywalker tusken raider hutt binks leia. Darth skywalker kenobi mandalorians. Moff moff
+                                mothma mara ponda ewok leia
+                                wicket. Antilles watto gonk alderaan. Calamari moff leia dooku grievous moff ackbar
+                                k-3po kenobi. Sidious dantooine sith
+                                dooku skywalker mandalorians leia naboo binks. Binks darth ventress sebulba owen dooku
+                                gamorrean jade mon. Anakin tusken
+                                raider coruscant wookiee hutt coruscant.</p>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Compartir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
             <div class="card">
                 <img src="assets/img/suricata pre.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Suricata</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                        distinctio
                         accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
                         alias! Corporis quasi velit iste animi voluptatibus.
                     </p>
 
-                    <a href="#" class="card-link">Comparte</a>
-                    <a href="#" class="card-link">Explora</a>
+                    <button type="button" class="btn btn-primary" <a href="#" class="card-link">Comparte</a></button>
+                    <button type="button" class="btn bg-success text-white" data-toggle="modal" data-target="#suricata">
+                        Explora!
+                    </button>
                 </div>
             </div>
+
+            <div class="modal fade" id="suricata" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="suricata">Suricata</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body foto_modal">
+                            <img src="assets/img/suricata com.png" alt="">
+                            <p>Lucas ipsum dolor sit amet calamari moff wedge leia maul wookiee sebulba twi'lek mon
+                                sidious. Antilles antilles
+                                skywalker tusken raider hutt binks leia. Darth skywalker kenobi mandalorians. Moff moff
+                                mothma mara ponda ewok leia
+                                wicket. Antilles watto gonk alderaan. Calamari moff leia dooku grievous moff ackbar
+                                k-3po kenobi. Sidious dantooine sith
+                                dooku skywalker mandalorians leia naboo binks. Binks darth ventress sebulba owen dooku
+                                gamorrean jade mon. Anakin tusken
+                                raider coruscant wookiee hutt coruscant.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Compartir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
             <div class="card">
                 <img src="assets/img/Screenshot_2020-05-18 IGUANAS.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Iguanas</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                        distinctio
                         accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
                         alias! Corporis quasi velit iste animi voluptatibus.</p>
 
-                    <a href="#" class="card-link">Comparte</a>
-                    <a href="#" class="card-link">Explora</a>
+                    <button type="button" class="btn bg-primary text-white" <a href="#"
+                        class="card-link">Comparte</a></button>
+
+                    <button type="button" class="btn bg-success text-white" data-toggle="modal" data-target="#iguanas">
+                        Explora!
+                    </button>
                 </div>
             </div>
-        </div>
-
-
-        <div class="card-deck  container-fluid mb-5">
-            <div class="card">
-                <img src="assets/img/Screenshot_2020-05-18 Meet Coffee.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Meet & Coffee</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
-                        accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
-                        alias! Corporis quasi velit iste animi voluptatibus.</p>
-
-                    <a href="#" class="card-link">Comparte</a>
-                    <a href="#" class="card-link">Explora</a>
+            <div class="modal fade" id="iguanas" tabindex="-1" role="dialog" aria-labelledby="iguanas"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="iguanas">Iguanas</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body foto_modal">
+                            <img src="assets/img/IGUANAS completo.png" alt="">
+                            <p>Lucas ipsum dolor sit amet calamari moff wedge leia maul wookiee sebulba twi'lek mon
+                                sidious. Antilles antilles
+                                skywalker tusken raider hutt binks leia. Darth skywalker kenobi mandalorians. Moff moff
+                                mothma mara ponda ewok leia
+                                wicket. Antilles watto gonk alderaan. Calamari moff leia dooku grievous moff ackbar
+                                k-3po kenobi. Sidious dantooine sith
+                                dooku skywalker mandalorians leia naboo binks. Binks darth ventress sebulba owen dooku
+                                gamorrean jade mon. Anakin tusken
+                                raider coruscant wookiee hutt coruscant.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Compartir</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="card">
-                <img src="assets/img/Screenshot_2020-05-18 CUPPON.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Cuppon</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
-                        accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
-                        alias! Corporis quasi velit iste animi voluptatibus.
-                    </p>
 
-                    <a href="#" class="card-link">Comparte</a>
-                    <a href="#" class="card-link">Explora</a>
-                </div>
-            </div>
-            <div class="card">
-                <img src="assets/img/Screenshot_2020-05-18 Olivia Ros Food Blogger.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Olivia Ros</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat distinctio
-                        accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
-                        alias! Corporis quasi velit iste animi voluptatibus.</p>
 
-                    <a href="#" class="card-link">Comparte</a>
-                    <a href="#" class="card-link">Explora</a>
+
+
+
+            <div class="card-deck  container-fluid mb-5">
+                <div class="card">
+                    <img src="assets/img/Screenshot_2020-05-18 Meet Coffee.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Meet & Coffee</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                            distinctio
+                            accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
+                            alias! Corporis quasi velit iste animi voluptatibus.</p>
+
+
+
+
+
+
+                        <button type="button" class="btn bg-primary text-white" <a href="#"
+                            class="card-link">Comparte</a></button>
+
+                        <button type="button" class="btn bg-success text-white" data-toggle="modal"
+                            data-target="#coffee">
+                            Explora!
+                        </button>
+                    </div>
                 </div>
-            </div>
-        </div>
+
+
+                <div class="modal fade" id="coffee" tabindex="-1" role="dialog" aria-labelledby="coffee"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="coffee">Meet Coffee</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body foto_modal">
+                                <img src="assets/img/Meet Coffee completa.jpg" alt="">
+                                <p>Lucas ipsum dolor sit amet calamari moff wedge leia maul wookiee sebulba twi'lek mon
+                                    sidious. Antilles antilles
+                                    skywalker tusken raider hutt binks leia. Darth skywalker kenobi mandalorians. Moff
+                                    moff
+                                    mothma mara ponda ewok leia
+                                    wicket. Antilles watto gonk alderaan. Calamari moff leia dooku grievous moff ackbar
+                                    k-3po kenobi. Sidious dantooine sith
+                                    dooku skywalker mandalorians leia naboo binks. Binks darth ventress sebulba owen
+                                    dooku
+                                    gamorrean jade mon. Anakin tusken
+                                    raider coruscant wookiee hutt coruscant.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Compartir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="assets/img/Screenshot_2020-05-18 CUPPON.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cuppon</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                            distinctio
+                            accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
+                            alias! Corporis quasi velit iste animi voluptatibus.
+                        </p>
+
+
+
+                        <button type="button" class="btn bg-primary text-white" <a href="#"
+                            class="card-link">Comparte</a></button>
+
+                        <button type="button" class="btn bg-success text-white" data-toggle="modal"
+                            data-target="#Cuppon">
+                            Explora!
+                        </button>
+                    </div>
+                </div>
+                <div class="modal fade" id="Cuppon" tabindex="-1" role="dialog" aria-labelledby="Cuppon"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="Cuppon">Cuppon</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body foto_modal">
+
+                                <img src="assets/img/CUPPON completa.png" alt="">
+                                <p>Lucas ipsum dolor sit amet calamari moff wedge leia maul wookiee sebulba twi'lek mon
+                                    sidious. Antilles antilles
+                                    skywalker tusken raider hutt binks leia. Darth skywalker kenobi mandalorians. Moff
+                                    moff
+                                    mothma mara ponda ewok leia
+                                    wicket. Antilles watto gonk alderaan. Calamari moff leia dooku grievous moff ackbar
+                                    k-3po kenobi. Sidious dantooine sith
+                                    dooku skywalker mandalorians leia naboo binks. Binks darth ventress sebulba owen
+                                    dooku
+                                    gamorrean jade mon. Anakin tusken
+                                    raider coruscant wookiee hutt coruscant.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Compartir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="card">
+                    <img src="assets/img/Screenshot_2020-05-18 Olivia Ros Food Blogger.png" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Olivia Ros</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+                            distinctio
+                            accusamus odit, esse mollitia ipsum, hic non explicabo rerum facere laborum magnam voluptate
+                            alias! Corporis quasi velit iste animi voluptatibus.</p>
+
+                        <button type="button" class="btn btn-primary" <a href="#"
+                            class="card-link">Comparte</a></button>
+
+
+                        <button type="button" class="btn bg-success text-white" data-toggle="modal"
+                            data-target="#Olivia">
+                            Explora!
+                        </button>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="modal fade" id="Olivia" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="Olivia">Olivia Ros Food Blogger</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body foto_modal">
+                                <img src="assets/img/Olivia Ros Food Blogger completa.jpg" alt="">
+                                <p>Lucas ipsum dolor sit amet calamari moff wedge leia maul wookiee sebulba twi'lek mon
+                                    sidious. Antilles antilles
+                                    skywalker tusken raider hutt binks leia. Darth skywalker kenobi mandalorians. Moff
+                                    moff
+                                    mothma mara ponda ewok leia
+                                    wicket. Antilles watto gonk alderaan. Calamari moff leia dooku grievous moff ackbar
+                                    k-3po kenobi. Sidious dantooine sith
+                                    dooku skywalker mandalorians leia naboo binks. Binks darth ventress sebulba owen
+                                    dooku
+                                    gamorrean jade mon. Anakin tusken
+                                    raider coruscant wookiee hutt coruscant.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-primary">Compartir</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
 
 
 
     </section>
+    <hr>
 
-
-    <section class="contacto container">
+    <section id="contacto" class="contacto container">
 
 
 
@@ -194,9 +499,11 @@
         <p>Adrian Figueroa - 2020 - Chile</p>
 
         <div class="iconos text-white">
-            <i class="fab fa-facebook-square"></i>
+
+
             <i class="fab fa-github"></i>
             <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
 
         </div>
 

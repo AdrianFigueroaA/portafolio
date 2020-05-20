@@ -7,14 +7,15 @@ padding: 0;
 .foto-personal{
 
 
-
+ ;
     
 
 }
 
+
 .navbar{
 
-background: white;
+
 text-align: left;
 padding: 10px;
 position: sticky;
@@ -26,23 +27,44 @@ z-index: 1;
 
 }
 
+
+.personal{
+padding-top: 60px;
+height: 500px;
+    
+}
+
 .sobre-mi{
     
     background:white;
+    padding-top: 60px;
+    height: 600px;
 
 
   
     
 }
+
+.foto_modal img{
+
+
+    height: 300px;
+}
+
+
+hr{
+
+  
+    background: black;
+    margin: 20px 100px;
+}
+
 .sobre-mi img {
 
     width: 50%;
 }
 
-h2{
 
-    text-align: center;
-}
 
 p{
 
@@ -50,49 +72,31 @@ p{
     
 }
 
-/* .imperial{
-height: 300px;
+.dev p{
     
+    
+    padding-top: 46px;
 }
-
-
-
-.dev{
-height: 300px;
-
-}
-
-.rock{
-
-height: 300px;
-}
-
-.libros{
-
-height: 200px;
-} 
-
-
 .contacto{
 
     background: yellow;
-    height: 200px;
+    height: 400px;
 }
 
 footer{
 
 
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     height: 100px;
-    background: black;
+    background:#212529;
     color: white;
 
 }
 footer p{
     padding-top: 34px;
     font-family: 'Roboto', sans-serif;
-
+font-size: 25px;
     
 }
 
