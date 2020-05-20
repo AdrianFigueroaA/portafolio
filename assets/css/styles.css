@@ -4,13 +4,7 @@ box-sizing: border-box;
 padding: 0;
 }
 
-.foto-personal{
 
-
- ;
-    
-
-}
 
 
 .navbar{
@@ -36,9 +30,9 @@ height: 500px;
 
 .sobre-mi{
     
-    background:white;
+    
     padding-top: 60px;
-    height: 600px;
+    padding-bottom: 100px;
 
 
   
@@ -108,4 +102,47 @@ color: white;
 
 
 
+@media( max-width: 600px ){
 
+
+    hr{
+
+        display: none;
+    } 
+
+
+#sobre-mi{
+
+margin-top: 190px;
+}
+    
+
+.dev p {
+    padding-top: 4px;
+
+}
+
+.foto-personal{
+
+margin: 10px 10px;
+
+}
+
+
+
+.navbar-expand-lg .navbar-collapse {
+    
+    text-align: center;
+    justify-content: center;
+    margin: 5px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.trabajos{
+
+padding-top: 470px;
+}
+
+
+}
