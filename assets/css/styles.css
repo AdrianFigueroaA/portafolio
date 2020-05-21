@@ -33,7 +33,8 @@ font-family: 'Open Sans', sans-serif;
 
 .personal{
 padding-top: 60px;
-height: 500px;
+padding-bottom: 90px;
+
     
 }
 
@@ -42,6 +43,7 @@ height: 500px;
     
     padding-top: 60px;
     padding-bottom: 100px;
+    
 
 
   
@@ -140,11 +142,7 @@ text-decoration: underline;
     } 
 
 
-#sobre-mi{
-
-margin-top: 190px;
-}
-    
+   
 
 .dev p {
     padding-top: 4px;
